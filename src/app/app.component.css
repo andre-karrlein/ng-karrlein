@@ -1,0 +1,31 @@
+.menu-button {
+  color: royalblue;
+}
+.menu {
+  background-color: white;
+}
+.my-card {
+  width: 80%;
+  margin-left: 6%;
+  margin-top: 10%;
+}
+.my-image {
+  height: auto;
+  width: 75%;
+  object-fit: cover;
+  border-radius: 25%;
+  margin: 10%;
+  border: 7px solid royalblue;
+}
+.sidenav {
+  padding: 20px;
+}
+.button {
+  margin: 5px;
+}
+.button-width {
+  width: 100%;
+}
+.spacer {
+  flex: 1 1 auto;
+}

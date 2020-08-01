@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Resume</h2>
+<mat-dialog-content class="mat-typography">
+  <mat-card class="my-card" *ngFor='let exp of experiences$.reverse()'>
+  <mat-card-header>
+    <mat-card-title>{{ exp.role }} - {{ exp.company }}, {{ exp.city }}</mat-card-title>
+    <mat-card-subtitle class="my-sub">{{ exp.timeframe }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+  </mat-card-content>
+</mat-card>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

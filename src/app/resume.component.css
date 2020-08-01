@@ -1,0 +1,10 @@
+.my-card {
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+  color: white;
+  background-color: royalblue;
+}
+.my-sub {
+  color: lightgray;
+}
