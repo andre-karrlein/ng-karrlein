@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   template: `<h2>Hi there! My name is</h2>
               <h1>{{ name }}</h1>
               <p>{{ tagline }}</p>`,
-  styles: [`h1 { font-family: Lato; } p { font-family: Lato; } h2 { color: royalblue; font-family: Lato; }`]
+  styles: [`h2 { color: royalblue; }`]
 })
 export class HelloComponent  {
   @Input() name: string;
