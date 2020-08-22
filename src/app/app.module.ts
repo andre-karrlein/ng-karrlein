@@ -14,10 +14,11 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { LogoComponent } from './logo.component';
-import { CopyrightComponent } from './copyright.component';
-import { ResumeDialogComponent } from './resume.component';
+import { HelloComponent } from './components/hello.component';
+import { LogoComponent } from './components/logo.component';
+import { CopyrightComponent } from './components/copyright.component';
+import { ResumeDialogComponent } from './resume/resume.component';
+import { WebComponent } from './web/web.component';
 import { DataService } from './data.service';
 
 @NgModule({
@@ -42,6 +43,7 @@ import { DataService } from './data.service';
     LogoComponent,
     CopyrightComponent,
     ResumeDialogComponent,
+    WebComponent,
   ],
   bootstrap:    [ AppComponent ],
   entryComponents: [ ResumeDialogComponent ],

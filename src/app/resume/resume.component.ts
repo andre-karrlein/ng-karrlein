@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Experience } from './experience.model';
-import { DataService } from './data.service';
+import { Experience } from '../models/experience.model';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'resume-dialog',
