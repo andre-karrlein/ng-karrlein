@@ -10,17 +10,8 @@ import { ResumeDialogComponent } from './resume/resume.component';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'ANDRÉ KARRLEIN';
-
-  tagline = 'I\'m a solution architect at Red Bull in Salzburg, Austria.';
-  quote = 'When something is important enough, you do it even if the odds are not in your favor.';
-
   isHandset: Observable<BreakpointState> = this.breakpointObserver.observe(Breakpoints.Handset)
-  constructor(private breakpointObserver: BreakpointObserver, public dialog: MatDialog) {}
-
-  openDialog() {
-    const dialogRef = this.dialog.open(ResumeDialogComponent);
-  }
+  constructor(private breakpointObserver: BreakpointObserver) {}
 }
 
 

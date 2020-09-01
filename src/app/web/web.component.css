@@ -1,3 +1,26 @@
 h2 {
   color: royalblue;
 }
+.container-div {
+  overflow: hidden;
+  height: 80%;
+}
+.my-backgound {
+  background-image: linear-gradient(to left, royalblue , aliceblue);
+  overflow: hidden;
+}
+.white {
+  color: white;
+}
+.my-card {
+  margin-top:8%;
+  margin-left: 18%;
+  width: 60%;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.quote {
+  font-weight: light;
+  text-align: center;
+}
