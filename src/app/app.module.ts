@@ -19,6 +19,7 @@ import { LogoComponent } from './components/logo.component';
 import { CopyrightComponent } from './components/copyright.component';
 import { ResumeDialogComponent } from './resume/resume.component';
 import { WebComponent } from './web/web.component';
+import { MobileComponent } from './mobile/mobile.component';
 import { DataService } from './data.service';
 
 @NgModule({
@@ -44,6 +45,7 @@ import { DataService } from './data.service';
     CopyrightComponent,
     ResumeDialogComponent,
     WebComponent,
+    MobileComponent,
   ],
   bootstrap:    [ AppComponent ],
   entryComponents: [ ResumeDialogComponent ],
